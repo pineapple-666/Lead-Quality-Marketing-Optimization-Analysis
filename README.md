@@ -42,7 +42,7 @@ The analysis processes 3,012 valid lead records collected from one publisher to 
 
 * **Outcome Mapping:** Categorized leads into "Good" (converted or engaged), "Bad" (non-convertible), and "Neutral" (neither).
 
-
+![image alt](https://github.com/pineapple-666/Lead-Quality-Marketing-Optimization-Analysis/blob/ab42a63dfed010ba4ea7956e48760280fbabd357/Screenshot%202026-02-06%20145055.png)
 
 ### Statistical Methodologies
 
