@@ -12,27 +12,22 @@ The analysis processes 3,012 valid lead records collected from one publisher to 
 * **Trend Analysis:** Are there statistically significant lead quality trends (improving or declining) over time? 
 
 
-* 
-**Driver Identification:** What segments—such as ad type, debt level, or design—most influence lead quality? 
+* **Driver Identification:** What segments—such as ad type, debt level, or design—most influence lead quality? 
 
 
-* 
-**Financial Opportunity:** Can we increase lead quality by 20% (from 8.0% to 9.6%) to secure a 20% increase in CPL? 
+* **Financial Opportunity:** Can we increase lead quality by 20% (from 8.0% to 9.6%) to secure a 20% increase in CPL? 
 
 
 
 ## Core Findings
 
-* 
-**Temporal Patterns:** No statistically significant linear trend in lead quality was detected over time (), indicating that timing alone does not explain quality changes.
+* **Temporal Patterns:** No statistically significant linear trend in lead quality was detected over time (), indicating that timing alone does not explain quality changes.
 
 
-* 
-**Primary Drivers:** The **AdGroup** (type of ad seen) and consumer **DebtLevel** were identified as the strongest predictors of lead quality ( and , respectively).
+* **Primary Drivers:** The **AdGroup** (type of ad seen) and consumer **DebtLevel** were identified as the strongest predictors of lead quality ( and , respectively).
 
 
-* 
-**Optimization Potential:** Simulation results demonstrated that deprioritizing low-performing segments could raise lead quality by **47–51%**, easily exceeding the 20% improvement threshold required for a CPL increase.
+* **Optimization Potential:** Simulation results demonstrated that deprioritizing low-performing segments could raise lead quality by **47–51%**, easily exceeding the 20% improvement threshold required for a CPL increase.
 
 
 
@@ -40,46 +35,37 @@ The analysis processes 3,012 valid lead records collected from one publisher to 
 
 ### Data Processing & Cleaning
 
-* 
-**Validation:** Cleaned the original 3,021-record dataset to retain 3,012 valid records, removing duplicates and missing entries.
+* **Validation:** Cleaned the original 3,021-record dataset to retain 3,012 valid records, removing duplicates and missing entries.
 
 
-* 
-**Feature Engineering:** Extracted ad features from internal `WidgetName` fields, including size, design, and layout.
+* **Feature Engineering:** Extracted ad features from internal `WidgetName` fields, including size, design, and layout.
 
 
-* 
-**Outcome Mapping:** Categorized leads into "Good" (converted or engaged), "Bad" (non-convertible), and "Neutral" (neither).
+* **Outcome Mapping:** Categorized leads into "Good" (converted or engaged), "Bad" (non-convertible), and "Neutral" (neither).
 
 
 
 ### Statistical Methodologies
 
-* 
-**Regression Modeling:** Utilized OLS regression to assess the relationship between `GoodLeadPercentage` and time (weeks).
+* **Regression Modeling:** Utilized OLS regression to assess the relationship between `GoodLeadPercentage` and time (weeks).
 
 
-* 
-**Categorical Testing:** Applied **Chi-square tests** to determine the significance of relationships between lead quality and variables like `MarketingCampaign`, `Partner`, and `Design`.
+* **Categorical Testing:** Applied **Chi-square tests** to determine the significance of relationships between lead quality and variables like `MarketingCampaign`, `Partner`, and `Design`.
 
 
-* 
-**Simulation:** Conducted "what-if" analyses to measure the impact of filtering underperforming `AdGroups` and `DebtLevels` on overall lead volume and quality.
+* **Simulation:** Conducted "what-if" analyses to measure the impact of filtering underperforming `AdGroups` and `DebtLevels` on overall lead volume and quality.
 
 
 
 ## Tools Used
 
-* 
-**Language:** Python 
+* **Language:** Python 
 
 
-* 
-**Key Libraries:** Pandas, Scikit-learn, Statsmodels, Matplotlib, Seaborn 
+* **Key Libraries:** Pandas, Scikit-learn, Statsmodels, Matplotlib, Seaborn 
 
 
-* 
-**Other Platforms:** Tableau (for leadership reporting), SQL (for data extraction) 
+* **Other Platforms:** Tableau (for leadership reporting), SQL (for data extraction) 
 
 
 
@@ -87,4 +73,4 @@ The analysis processes 3,012 valid lead records collected from one publisher to 
 
 **Author:** Siming Chen
 
-**Date:** January 26, 2026
+**Date:** January, 2026
