@@ -9,8 +9,7 @@ The analysis processes 3,012 valid lead records collected from one publisher to 
 
 ## Key Business Questions
 
-* 
-**Trend Analysis:** Are there statistically significant lead quality trends (improving or declining) over time? 
+* **Trend Analysis:** Are there statistically significant lead quality trends (improving or declining) over time? 
 
 
 * 
