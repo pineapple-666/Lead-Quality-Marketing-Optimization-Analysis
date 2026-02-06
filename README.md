@@ -1,4 +1,3 @@
-# Lead-Quality-Marketing-Optimization-Analysis
 # Lead Quality & Marketing Optimization Analysis
 
 This repository contains a data-driven evaluation of marketing lead performance, focusing on identifying the drivers of "lead quality" and opportunities for financial optimization. The project specifically analyzes whether a 20% improvement in lead quality is achievable to justify a proposed increase in Cost Per Lead (CPL).
