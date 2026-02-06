@@ -43,14 +43,15 @@ The analysis processes 3,012 valid lead records collected from one publisher to 
 * **Outcome Mapping:** Categorized leads into "Good" (converted or engaged), "Bad" (non-convertible), and "Neutral" (neither).
 
 ![image alt](https://github.com/pineapple-666/Lead-Quality-Marketing-Optimization-Analysis/blob/ab42a63dfed010ba4ea7956e48760280fbabd357/Screenshot%202026-02-06%20145055.png)
+![image alt](https://github.com/pineapple-666/Lead-Quality-Marketing-Optimization-Analysis/blob/4c0f42df26841b8651f0c3df16f43a445771b871/Screenshot%202026-02-06%20145107.png)
 
 ### Statistical Methodologies
 
 * **Regression Modeling:** Utilized OLS regression to assess the relationship between `GoodLeadPercentage` and time (weeks).
-
+![image alt](https://github.com/pineapple-666/Lead-Quality-Marketing-Optimization-Analysis/blob/4c0f42df26841b8651f0c3df16f43a445771b871/Screenshot%202026-02-06%20145118.png)
 
 * **Categorical Testing:** Applied **Chi-square tests** to determine the significance of relationships between lead quality and variables like `MarketingCampaign`, `Partner`, and `Design`.
-
+![image alt](https://github.com/pineapple-666/Lead-Quality-Marketing-Optimization-Analysis/blob/4c0f42df26841b8651f0c3df16f43a445771b871/Screenshot%202026-02-06%20145131.png)
 
 * **Simulation:** Conducted "what-if" analyses to measure the impact of filtering underperforming `AdGroups` and `DebtLevels` on overall lead volume and quality.
 
